@@ -12,7 +12,7 @@
  <a href="#ℹ%EF%B8%8F-sobre-o-projeto">Sobre</a> •
  <a href="#-tecnologias">Tecnologias</a> •
  <a href="#-como-executar-o-projeto">Como executar</a> •
- <a href="#-Endpoints">Endpoints</a> •
+ <a href="#-endpoints">Endpoints</a> •
  <a href="#-documentação-API">Documentação</a> •
  <a href="#-autores">Autores</a> •
  <a href="#-licença">Licença</a>
@@ -71,7 +71,7 @@ $ yarn typeorm migration:run
 # Execute a aplicação
 $ yarn dev
 
-# The server will start at port: 3333 - go to http://localhost:3333
+# O servidor iniciará na porta:3333 - acesse http://localhost:3333
 
 ```
 
