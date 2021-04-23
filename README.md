@@ -12,7 +12,7 @@
  <a href="#ℹ%EF%B8%8F-about">About</a> •
  <a href="#-tech-stack">Tech Stack</a> •
  <a href="#-how-it-works">How it works</a> •
- <a href="#-endpoints">Endpoints</a> •
+ <a href="#%EF%B8%8F-endpoints">Endpoints</a> •
  <a href="#-documentation">Documentation</a> •
  <a href="#-authors">Authors</a> •
  <a href="#-license">License</a>
