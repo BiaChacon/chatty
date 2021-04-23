@@ -9,24 +9,24 @@
 </h1>
 
 <p align="center">
- <a href="#ℹ%EF%B8%8F-about">About</a> •
- <a href="#-tech-stack">Tech Stack</a> •
- <a href="#-how-it-works">How it works</a> •
- <a href="#-endpoints">Endpoints</a> •
- <a href="#-documentation">Documentation</a> •
- <a href="#-authors">Authors</a> •
- <a href="#-license">License</a>
+ <a href="#ℹ%EF%B8%8F-sobre-o-projeto">Sobre</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> •
+ <a href="#-Endpoints">Endpoints</a> •
+ <a href="#-documentação-API">Documentação</a> •
+ <a href="#-autores">Autores</a> •
+ <a href="#-licença">Licença</a>
 </p>
 
-## ℹ️ About
+## ℹ️ Sobre o projeto
 
-Chat with [Socket.IO](https://socket.io/) created at [RocketSeat](https://rocketseat.com.br/) Next Level Week 5.0, using stack TypeScript with Node.js.
+Chat com [Socket.IO](https://socket.io/) criado na [RocketSeat](https://rocketseat.com.br/) Next Level Week 5.0, usando TypeScript com Node.js.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tecnologias
 
-The following tools were used in the construction of the project:
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - **[Node.js](https://nodejs.org/en/)**
 - **[Express](https://expressjs.com/)**
@@ -40,35 +40,35 @@ The following tools were used in the construction of the project:
 
 ---
 
-## 🚀 How it works
+## 🚀 Como executar o projeto
 
-### 👉 Pre-requisites
+### 👉 Pré-requisitos
 
-Before you begin, you will need to have the following tools installed on your machine: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/). In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/).
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-#### 🏁 Start
+#### 🏁 Começar
 
 ```bash
-# Clone this repository
+# Clone este repositório
 $ git clone https://github.com/BiaChacon/chatty.git
 
-# Access the project folder cmd/terminal
+# Acesse a pasta do projeto no terminal/cmd
 $ cd chatty
 ```
 
-#### 🎲 Running the server
+#### 🎲 Executando o servidor
 
 ```bash
-# go to the api folder
+# Vá para a pasta da api
 $ cd api
 
-# install the dependencies
+# Instale as dependências
 $ npm install
 
-#Create migrations
+# Criar migrations
 $ yarn typeorm migration:run
 
-# Run the application
+# Execute a aplicação
 $ yarn dev
 
 # The server will start at port: 3333 - go to http://localhost:3333
@@ -79,18 +79,18 @@ $ yarn dev
 
 ## 🖥️ Endpoints
 
-### 💠 To access the Admin chat go to 👉 http://localhost:3333/pages/admin
+### 💠 Para acessar o chat do admin vá para 👉 http://localhost:3333/pages/admin
 
-### 💠 To access the Client chat go to 👉 http://localhost:3333/pages/client
+### 💠 Para acessar o chat do cliente vá para 👉 http://localhost:3333/pages/client
 
 ---
 
-## 🗎 Documentation API
+## 🗎 Documentação API
 
 <details>
-  <summary>Settings</summary>
+  <summary>Configurações</summary>
 
-### 📍 Create Settings [/settings] [POST]
+### 📍 Criar Configuração [/settings] [POST]
 
 #### **Request**
 
@@ -117,7 +117,7 @@ $ yarn dev
 ]
 ```
 
-### 📍 Update Settings [/settings/admin] [PUT]
+### 📍 Atualizar Configuração [/settings/admin] [PUT]
 
 #### **Request**
 
@@ -134,9 +134,9 @@ $ yarn dev
  </details>
 
 <details>
-  <summary>User</summary>
+  <summary>Usuário</summary>
 
-### 📍Create User [/users] [POST]
+### 📍Criar Usuário [/users] [POST]
 
 #### **Request**
 
@@ -163,9 +163,9 @@ $ yarn dev
  </details>
 
 <details>
-  <summary>Message</summary>
+  <summary>Mensagem</summary>
 
-### 📍Send Message [/messages] [POST]
+### 📍Enviar Mensagem [/messages] [POST]
 
 #### **Request**
 
@@ -191,7 +191,7 @@ $ yarn dev
 ]
 ```
 
-### 📍List Messages By User [/messages/:user_id] [GET]
+### 📍Listar mensagens de um usuário [/messages/:user_id] [GET]
 
 #### **Response 201 (application/json)**
 
@@ -216,7 +216,7 @@ $ yarn dev
 
 ---
 
-## 👩🏽‍💻 Authors
+## 👩🏽‍💻 Autores
 
 <table>
   <tr>
@@ -226,12 +226,12 @@ $ yarn dev
 
 ---
 
-## 📝 License
+## 📝 Licença
 
-This project is under MIT. See at here [LICENSE](https://github.com/BiaChacon/chatty/blob/main/LICENSE) for more information.
+Este projeto está sob o MIT. Veja aqui [LICENSE](https://github.com/BiaChacon/chatty/blob/main/LICENSE) para mais informações.
 
 ---
 
-## README versions
+## Versões do README
 
-[English 🇺🇸](./README.md) | [Portuguese 🇧🇷](./README.pt-br.md)
+[Inglês 🇺🇸](./README.md) | [Português 🇧🇷](./README.pt-br.md)
