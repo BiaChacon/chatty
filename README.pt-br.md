@@ -12,7 +12,7 @@
  <a href="#ℹ%EF%B8%8F-sobre-o-projeto">Sobre</a> •
  <a href="#-tecnologias">Tecnologias</a> •
  <a href="#-como-executar-o-projeto">Como executar</a> •
- <a href="#-endpoints">Endpoints</a> •
+ <a href="#ℹ%EF%B8%8F-endpoints">Endpoints</a> •
  <a href="#-documentação-API">Documentação</a> •
  <a href="#-autores">Autores</a> •
  <a href="#-licença">Licença</a>
